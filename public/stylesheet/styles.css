@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    background-color: #F4B400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#chat {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+    outline-width: 0;
+    box-shadow: 0 5px 6px -3px rgba(0,0,0,.2), 0 9px 12px 1px rgba(0,0,0,.14), 0 3px 16px 2px rgba(0,0,0,.12);
+}
+
+label.username {
+    width: 100%;
+    padding: 0 1em;
+}
+
+input#username {
+    border: none;
+    border-radius: 7px;
+}
+
+input#message {
+    width: 85%;
+    border-bottom-left-radius: 70px;
+    border-top-left-radius: 70px;
+    padding: 0 1em 0 20px;
+}
+
+div#message-input {
+    width: 90%;
+    height: 5em;
+    position: relative
+}
+
+button {
+    height: 70px !important;
+    width: 70px !important;
+    font-size: 14px !important;
+    background: #4285F4 !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    margin: 0 !important;
+    outline-width: 0 !important;
+}
+
+.demo-card-square.mdl-card {
+    width: 90%;
+    height: 24em;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.messages-content {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    width: 89%;
+    border-radius: 70px;
+    padding: 0 20px;
+    box-shadow: 0 5px 6px -3px rgba(0,0,0,.2), 0 9px 12px 1px rgba(0,0,0,.14), 0 3px 16px 2px rgba(0,0,0,.12);
+}
+
+.messages {
+    overflow: auto;
+}
+
+.mdl-textfield {
+    width: 100% !important;
+}

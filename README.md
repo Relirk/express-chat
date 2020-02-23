@@ -2,6 +2,8 @@
 
 Este repositório contém um chat inteiramente feito com Express, NodeJs e Socket.IO.
 
+![Screenshot 1](express-chat.png)
+
 Tecnologias:
 
 - [NodeJS](https://nodejs.org/en/)

@@ -1,4 +1,19 @@
 # Express Chat
+<p align="left">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Relirk/express-chat">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Relirk/express-chat">
+  
+  <a href="https://github.com/Relirk/express-chat/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Relirk/express-chat">
+  </a>
+
+  <a href="https://github.com/Relirk/express-chat/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Relirk/express-chat">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
 Este repositório contém um chat inteiramente feito com Express, NodeJs e Socket.IO.
 
